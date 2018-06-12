@@ -1,0 +1,116 @@
+
+
+.header {
+    height: 100px;
+    width: 100%;
+    background-color: #181010; /*header color*/
+}
+
+.actual_header {
+    width: 1152px;
+    height: auto;
+    margin: auto;
+}
+
+.logo {
+    height: 100%;
+    width: 30%;
+    float: left;
+    background-color: #181010;
+}
+
+.logo_img {
+    height: 50%;
+    width: 35%;
+    float: left;
+    margin-left: 1em;
+    margin-top: 1.5em;
+}
+
+.logo_img img {
+    height: 100%;
+    width: 100%;
+}
+
+
+.web_name {
+    height: 50px;
+    width: auto;
+    float: right;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+.web_name p {
+    font-size: 1.6em;
+    color: #808080;
+}
+
+.web_name a {
+    font-family: "Lucida", Sans-serif;
+    text-decoration: none;
+    color: #808080;
+}
+
+.web_name a:hover, a:visited, a:active {
+    color: #808080;
+}
+
+.navigation {
+    height: 100%;
+    width: 70%;
+    float: left;
+    background-color: #181010;
+}
+
+.navi_item {
+    height: 100%;
+    width: 100%;
+    float: right;
+}
+
+.navi_item ul li {
+    list-style-type: none;
+    margin-top: 40px;
+    margin-right: 1.1em;
+    float: right;
+    font-family: "Lucida", Sans-serif;
+    font-size: 1.3em;
+}
+
+.navi_item a {
+    text-decoration: none;
+}
+
+.navigation a {
+    color: #808080;
+}
+
+.navigation a:hover, a:active {
+    color: #002B4C;
+}
+
+.footer {
+    height: 100px;
+    width: 100%;
+    margin-top: 0em;
+    background-color: #181010;
+}
+
+.footer_footer {
+    height: 100%;
+    width: 1152px;
+    margin-top: 0em;
+}
+
+.footer .copyright {
+    padding-left: 3em;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 1.2em;
+    color: #808080;
+}
+
+.body_content {
+    background-color: #000000;
+}

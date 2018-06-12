@@ -1,0 +1,72 @@
+.container {
+	background-color: #000000;
+}
+
+.description_title {
+	color: #A59A06;
+	font-family: "Nunito";
+	text-align: left;
+	padding-left: 1.5em;
+	margin-right: 4.5em;
+
+}
+
+.description {
+	color: #2CCAD5;
+	font-family: "Nunito";
+	font-size: large;
+	text-align: justify;
+	margin-left: 3em;
+	margin-right: 4.5em;
+}
+
+.indented {
+	padding-left: 50px;
+}
+
+.normal_introduction{
+	color: #2CCAD5;
+	font-family: "Nunito";
+	text-align: left;
+	padding-left: 40px;
+	padding-top: 20px;
+}
+
+.aram_introduction{
+	color: #2CCAD5;
+	font-family: "Nunito";
+	text-align: left;
+	padding-left: 30px;
+	padding-top: 20px;
+}
+
+.twisted_introduction{
+	color: #2CCAD5;
+	font-family: "Nunito";
+	text-align: left;
+	padding-left: 5px;	
+	padding-right: 20px;
+	padding-top: 20px;
+}
+
+.normal_map {
+	padding-top: 2em;
+	padding-left: 3em;
+	height:	30%;
+	width: 100%; 
+}
+
+.aram_map {
+	padding-top: 2em;
+	padding-left: 20px;
+	padding-right: 20px;
+	height:	30%;
+	width: 100%; 
+}
+
+.twisted_map {
+	padding-top: 2em;
+	padding-right: 3em;
+	height:	30%;
+	width: 100%; 
+}

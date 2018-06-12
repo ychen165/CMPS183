@@ -1,0 +1,85 @@
+{{extend 'layout.html'}}
+
+{{block head}}
+
+<script src="{{=URL('static', 'js/vue.js')}}"></script>
+<link href="{{=URL('static','css/index.css')}}" rel="stylesheet" type="text/css"/>
+<script>
+  // Define your URLs here.
+  var user_images_url = "{{=URL('api', 'get_user_images')}}";
+  var add_image_url = "{{=URL('api', 'add_image', user_signature=True)}}";
+  var users_url = "{{=URL('api', 'get_users',  user_signature=True)}}";
+  var current_images_url = "{{=URL('api', 'get_images_from_current_user', user_signature=True)}}";
+  var other_images_url = "{{=URL('api', 'get_images_from_other_user', user_signature=True)}}";
+  var set_price_url = "{{=URL('api', 'set_price', user_signature=True)}}";
+  var add_cart_url = "{{=URL('api', 'add_cart')}}";
+  var out_cart_url = "{{=URL('api', 'out_cart')}}";
+  var purchase_url = "{{=URL('api', 'purchase', hmac_key=session.hmac_key)}}"
+</script>
+
+
+{{end}}
+
+<div id="vue-div" class="container">
+    <img src="../static/images/gameDescrpition.jpg">
+    <div class="container">
+      <h2 class="description_title">Setting and lore</h2>
+      <div class="description">  
+        <div class="indented">The world of Runeterra consists of a number of countries and city-states, locked in a web of rivalry, alliance, and conflict.</div><div> The two largest and most powerful entities are the states of Demacia and Noxus, who have fought wars in the past, and are in a Cold War-esque state currently, with each seeking to quietly undermine the other.</div>
+        <div class="indented">Demacia is inspired by an idealized Medieval European kingdom, while Noxus is reminiscent of the Roman Empire. </div><div>Demacian champions tend to value themes like chivalry and honor, while Noxus prides itself on vision, might, and guile. Piltover and Zaun are a city-state at the forefront of technology; Piltover, the "respectable" half of the city, has a "steampunk" style, while Zaun, the neglected undercity of Piltover, is a darker vision of the power of technology, engaging in ethically questionable research. The Freljord is an icy domain riven by a three-way civil war between rival claimant Queens Ashe, Sejuani, and Lissandra. Bandle City is a peaceful domain of yordles, a race of small humanoids unique to League of Legends. Ionia is an island nation with a strong connection to magic and features champions inspired by monk and ninja archetypes, as well the Vastaya, a race of animal-human hybrid creatures also unique to League of Legends. Bilgewater is a port town with a pirate theme. The Shadow Isles is an island chain that was magically corrupted, and has become haunted by a malign force known as the "Black Mist" which leeches life and empowers the undead. Targon is an ancient mountain peak with a Greek mythology theme. Shurima is a recently resurrected empire that was until recently lost to the desert, with a somewhat Egyptian theme. Icathia is another fallen and abandoned city where Void monsters from another dimension have crossed into Runeterra, with a Lovecraftian theme.
+        </div>
+      </div>
+    </div>
+
+    <div class="maps container">
+
+      
+          <div class="third">
+              <img class="normal_map" src="../static/images/normal.png">
+
+              <div class="normal_introduction">
+                Summoner's Rift is located in a remote forest between Freljord, and the Ironspike Mountains. The Summoner’s Rift is one of a few locations in Valoran where magical energy is at its greatest concentration, making it a highly sought-after locale to pursue magical endeavors.
+              </div>   
+          </div>
+
+          <div class="third">
+              <img class="aram_map"  src="../static/images/aram.jpg"> 
+
+              <div class="aram_introduction">
+               The Howling Abyss bridge is located in the Freljord and serves as a gateway to the Frostguard profileicon Frostguard citadel. It replaced the Proving Grounds during the Freljord event and later became the first map for the official ARAM game mode.
+              </div> 
+          </div>
+
+          <div class="third">
+              <img class="twisted_map"  src="../static/images/twisted.png">  
+
+              <div class="twisted_introduction">
+               The Twisted Treeline is the second classic League of Legends map. It typically features faster, bloodier matches with an emphasis on ganking and small scale skirmishes. You achieve victory by pushing your way into the opposing base and destroying the enemy nexus.
+              </div> 
+          </div>
+      
+    </div>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+     <br>
+    <br>
+    <br>
+    <br>
+     <br>
+    <br>
+    <br>
+    <br>
+
+          
+
+
+
+</div>
+
+
+
+<script src="{{=URL('static', 'js/default_index.js')}}"></script>
