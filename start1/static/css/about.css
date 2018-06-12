@@ -1,0 +1,131 @@
+.the_team {
+    color: #A59A06;
+    font-family: "Nunito";
+    width: 70%;
+    height: 60px;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+    border-bottom: 2px solid #FFD459;
+}
+
+.the_team p {
+    color: #A59A06;
+    font-family: "Nunito";
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.team_profile {
+    color: #A59A06;
+    font-family: "Nunito";
+    width: 70%;
+    height: 600px;
+    margin: auto;
+    margin-top: 60px;
+    /*background-color: beige;*/
+}
+
+.team_member {
+    color: #A59A06;
+    font-family: "Nunito";
+    width: 25%;
+    height: 700px;
+    float: left;
+}
+
+
+
+.member_name {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+    /*background-color: coral;*/
+}
+
+.member_name p {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.member_title {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+    /*background-color: aqua;*/
+}
+
+.member_title p {
+    color: #002B4C;
+    font-weight: bolder;
+}
+
+.member_description {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.contact_us {
+    width: 70%;
+    height: 800px;
+    margin: auto;
+    padding-top: 10px; 
+    background-color: #002B4C; /*#FFD459*/
+}
+
+.contact_us_title {
+    width: 50%;
+    height: auto;
+    margin: auto;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    color: #FFD459;
+}
+
+.contact_us_address {
+    width: 50%;
+    height: auto;
+    margin: auto;
+    margin-top: 60px;
+    font-size: 30px;
+    text-align: center;
+    color: #FFD459;
+}
+
+.contact_us_information {
+    width: 50%;
+    height: 300px;
+    margin: auto;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.contact_us_information input {
+    width: 500px;
+    height: 40px;
+    text-indent: 5px;
+    margin-top: 15px;
+    outline: 0;
+}
+
+.contact_us_submit {
+    width: 200px;
+    height: auto;
+    margin: auto;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.contact_us_submit input {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #FFD459;
+    color: #002B4C;
+}

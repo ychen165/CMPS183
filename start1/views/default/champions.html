@@ -4,16 +4,32 @@
 
 <script src="{{=URL('static', 'js/vue.js')}}"></script>
 <link href="{{=URL('static','css/champions.css')}}" rel="stylesheet" type="text/css"/>
-
+<script>
+  // Define your URLs here.
+  var user_images_url = "{{=URL('api', 'get_user_images')}}";
+  var add_image_url = "{{=URL('api', 'add_image', user_signature=True)}}";
+  var users_url = "{{=URL('api', 'get_users',  user_signature=True)}}";
+  var current_images_url = "{{=URL('api', 'get_images_from_current_user', user_signature=True)}}";
+  var other_images_url = "{{=URL('api', 'get_images_from_other_user', user_signature=True)}}";
+  var set_price_url = "{{=URL('api', 'set_price', user_signature=True)}}";
+  var add_cart_url = "{{=URL('api', 'add_cart')}}";
+  var out_cart_url = "{{=URL('api', 'out_cart')}}";
+  var purchase_url = "{{=URL('api', 'purchase', hmac_key=session.hmac_key)}}"
+</script>
 
 
 {{end}}
 
-<div id="vue-div" class="champions container">
+<div class="test">
+<div id="vue-div" class="display:none">
+    <p>nothing</p>
+    </div>
+</div>
 
-<!---------------------------------------------------------------------------------------------
-  !-->
+<div id="vue-div" class="display:none">
 
+
+<div v-if="is_championlist">
     <div class="champion_columns">
          
             <div class="Aatrox">
@@ -321,7 +337,7 @@
             </div>
    
     </div>
-    
+    </div>  
 
  
 

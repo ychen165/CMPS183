@@ -264,7 +264,8 @@ var app = function() {
             is_checkout: false,
             is_incart: true,
             image_ID: null,
-            cart_total: 0
+            cart_total: 0,
+            is_championlist: true
             },
         methods: {
             open_uploader: self.open_uploader,

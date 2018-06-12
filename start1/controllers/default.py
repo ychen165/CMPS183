@@ -58,10 +58,10 @@ def champions():
 
     return dict()
 
-def aatrox():
+#def aatrox():
 
-    return dict()
+#    return dict()
 
-def akali():
+#def akali():
 
-    return dict()
+#    return dict()
